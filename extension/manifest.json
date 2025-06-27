@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Нет фишингу",
+  "version": "1.0",
+  "description": "Расширение для проверки фишинговых сайтов",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
